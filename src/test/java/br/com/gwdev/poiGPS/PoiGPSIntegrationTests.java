@@ -65,7 +65,7 @@ public class PoiGPSIntegrationTests {
         findAll.add(returnPoiDTO("Pub", 12, 8));
         findAll.add(returnPoiDTO("SuperMercado", 23, 6));
         findAll.add(returnPoiDTO("Churrascaria", 28, 2));
-        findAll.sort(Comparator.comparing(PoiDTO::getDescPoi));
+        Collections.sort(findAll, Comparator.comparing(PoiDTO::getDescPoi));
         return findAll;
     }
 
