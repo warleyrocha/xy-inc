@@ -1,2 +1,2 @@
-# xy-inc
-Controle de POI
+# xy-INC
+Gerenciamento de POI (Pontos de Interesse)
